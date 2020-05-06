@@ -227,7 +227,7 @@ You've made changes to the local versions of your website code in the folder on 
 
 * Open GitHub Desktop. Check to make sure you're in the right repository by making sure that in the top-left the "Current repository" is the name of your website code folder. In the left sidebar, you should see a list of all the changes you made to your code locally, including files you've added or deleted.
 * At the bottom of the sidebar, there should be a small box with some fields and a blue button that says "Commit to master". This is how you "push" your changes that you made to the local version of your code on your computer to the version of your code on GitHub's servers. You must enter some summary of the changes you made--it's completely up to you what you type since it's just for your reference. Then you can click the blue "Commit to master" button.
-* Next, the center of the screen should have a button called
+* Next, the center of the screen should have a blue button called "Push origin". Click that to finally send your changes to GitHub's servers.
 * It should take a few seconds for everything to get processed and loaded. When it's done, the list of changes in the left sidebar should disappear. Now your website code on GitHub should be updated.
 * Netlify will automatically update your website using this update GitHub code. This usually takes a few seconds, so you might not see the changes immediately if you go to your website URL or hit refresh.
 
