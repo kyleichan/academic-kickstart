@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to Set Up a Website with Hugo and the Academic Theme2"
-subtitle: "A detailed step-by-step guide to setting up a website with Hugo from scratch for PC users."
-summary: ""
+title: "How to Set Up a Website with Hugo and the Academic Theme"
+subtitle: "A detailed step-by-step guide to setting up a website like this one from scratch with Hugo and the Academic theme."
+summary: "A detailed step-by-step guide to setting up a website like this one from scratch with Hugo and the Academic theme."
 authors: []
 tags: []
 categories: []
@@ -28,33 +28,26 @@ image:
 projects: []
 ---
 
-Hugo is a platform for building websites. Many academics have used Hugo and the Academic theme for building their own personal websites. Here are some nice examples:
+I built this personal website using Hugo and the Academic theme. These tools for creating a personal website are popular among academic researchers and developers who are looking for a simple, streamlined design. Here are a few examples:
 
-https://kieranhealy.org/
-
-https://www.arnoudplantinga.nl/
-
-https://www.dsquintana.com/
-
-https://www.rohitsalecha.com/
-
+https://kieranhealy.org/  
+https://www.arnoudplantinga.nl/  
+https://www.dsquintana.com/  
+https://www.rohitsalecha.com/  
+&nbsp; 
 
 Advantages of using Hugo:
-
 * More flexibility than popular services such as WordPress, Squarespace, or Wix. There are many [themes](https://themes.gohugo.io/) you can use with Hugo to change how your website looks.
 * No knowledge of HTML required
 
 Disadvantages of using Hugo:
-
 * Need to learn or be familiar with several other tools, such as GitHub and Markdown. These aren't difficult to learn, and I describe how to handle each one in detail.
 * Need to be ok with using running things in Windows using command lines rather than your usual click and drag interface.
 * Lots of small things can go wrong along the way. This can be frustrating and may not be worth the hassle if you don't mind sticking to WordPress, Squarespace, or Wix.
-&nbsp;
-&nbsp;
+&nbsp;  
 
 Here are the basic steps for setting up a personal website from scratch with your own custom domain name (i.e. www.yourname.com) using Hugo and the popular Academic theme. This tutorial is for PC users. There are a few key steps and tricks that the standard "how-to" guides don't talk about but that I've figured out through trial and error.
-&nbsp;
-&nbsp;
+&nbsp;  
 
 **Tools you'll need:**
 
@@ -68,9 +61,9 @@ Here are the basic steps for setting up a personal website from scratch with you
 * [Visual Studio](https://visualstudio.microsoft.com/) - editing code (free, required)
 * [Typora](https://typora.io/) - writing blog posts in Markdown (free, optional)
 
-&nbsp;
-&nbsp;
-## Step 1: Set up Github and Github Desktop
+<a name="step1"></a>
+&nbsp;  
+## Step 1: Set up Github and Github Desktop 
 
 **Github**
 
@@ -84,9 +77,7 @@ Download and install [Github Desktop](https://desktop.github.com/).
 
 Github Desktop is a software program that will allow you to sync your code between a version saved on my computer and a version saved online at Github.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 2: Set up Hugo
 
 To start, follow the instructions on Hugo's website for [installing Hugo on a Windows PC](https://gohugo.io/getting-started/installing/#windows).
@@ -101,25 +92,21 @@ Then download and install Hugo itself from the Hugo website:
 * After you download Hugo, unzip the downloaded file and copy the contents into the "bin" subfolder you created.
 * Add Hugo to your Windows PATH settings by following the steps on the Hugo install guide. **This step is crucial.**
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 3: Set up Academic theme on Netlify
 
 The Academic theme is one of the most popular themes for Hugo and is used for the personal websites of many researchers. The Academic theme is free to use and offers a simple, elegant way to share your bio and work as well as run a personal blog.
 
 My instructions below are for installing Academic using Netlify, a free and widely-used web hosting service. There are other ways to install Academic, but this is by far the easiest and most surefire way of setting everything up properly. The only catch is you need to sign up for yet another web service.
 
-* Go to the install guide for Academic: https://sourcethemes.com/academic/docs/install/
+* Go to the [install guide for the Academic theme](https://sourcethemes.com/academic/docs/install/).
 
 * Go to the section "Install with web browser" and click the link "Install Academic with Netlify". This will send you to the Netlify website where you'll need to sign up for a Netlify account and connect it with your GitHub account. Netlify will automatically create a "repo" for you on your GitHub account called "academic-kickstart". This "repo" is a copy of the set of code needed for running your own website.
 * Netlify automatically gives you a newly-created Netlify URL for your new website. The URL will be in the form xxxxx.netlify.app. Click the link to this Netlify URL and you should see a "demo" version of the Academic theme. This is your website so far: an exact copy of the Academic demo.
 
 You can easily change your Netlify URL to something else, but it will still end in "netlify.app" rather than ".com". In the next step, we'll set up your ".com" website URL.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 4: Set up Google Domains and connect with Netlify
 
 Google offers a service for registering your own custom URL. Many other companies offer domain registration services, but I decided to use Google because their prices were in line with industry standards ($12/year) and because Google sounds less sketchy than many of the other domain registration companies out there.
@@ -131,9 +118,9 @@ First, set up the Google Domains side:
 * In your Google Domains account, go to the "DNS" section from the left sidebar. Scroll to the bottom and you should find a section called "Custom resource records". This is how you'll connect your new URL to your Netlify website. Here, you'll add two new records:
 
   * First, enter "www" in the field where the @-sign is. Change the option "A" to "CNAME". Leave the field "1H" alone. Then in the field where it says "IPv4 address", enter your xxxx.netlify.app URL. Click the blue "Add" button.
-  * Second, leave all the fields blank except for the last one where it says "IPv4 address". In the "IPv4 address" field, enter the IP address for Netlify, which should be "104.198.14.52". Click the blue "Add" button.
+  * Second, leave all the fields blank except for the last one where it says "IPv4 address". In the "IPv4 address" field, enter the IP address for Netlify, which should be "104.198.14.52". Click the blue "Add" button.  
 
-  Now you should have two entries for "Custom resource records": 1)  a CNAME record with your Netlify URL and 2) an A record with the Netlify IP address. These help point your Google URL to your Netlify website. This means that when visitors go to your custom URL, Google Domains will secretly pull up your Netlify website but will continue show your normal ".com" custom URL. If any of these steps are unclear, check Netlify's instructions: https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain.
+Now you should have two entries for "Custom resource records": 1)  a CNAME record with your Netlify URL and 2) an A record with the Netlify IP address. These help point your Google URL to your Netlify website. This means that when visitors go to your custom URL, Google Domains will secretly pull up your Netlify website but will continue show your normal ".com" custom URL. If any of these steps are unclear, check [Netlify's instructions](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain).
 
 Second, set up the Netlify side:
 
@@ -142,9 +129,7 @@ Second, set up the Netlify side:
 
 You've now connected your custom URL to your Netlify website. It should take some time for everything to link up. If you check your new custom URL right away, you might not see any changes. It can take up to 48 hours for everything to link up properly and for your URL to point to your website, but for me this time usually ranges between 10 min and a few hours.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 5: Customize your Academic themed website
 
 First, you'll need to download your website code to your computer. Your website's code is currently in a "repo" (i.e. folder) on your online GitHub account. You'll need to download it to your computer and link it up.
@@ -210,9 +195,7 @@ Creating new pages:
 
 To add content to your page besides widgets, such as text or images, start typing Markdown code below the  "---" at the bottom of the index.md file.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 6: Previewing your website on your computer
 
 Before you officially make changes to your live website, you might want to test different things and see how they look on a web browser.
@@ -237,9 +220,7 @@ Before you officially make changes to your live website, you might want to test 
 
 Every time you edit any of your website code files and then hit save, your browser will automatically refresh and show you the updated version of your website. When you're done seeing how the local version of your website looks, you can stop running the local version of your website by pressing ctrl+C in the command prompt. Keep in mind that while seeing a local version of your website is useful as a way of previewing your website, your live website may end up looking slightly different (although if everything goes right, it should look exactly the same).
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 7: Publishing changes to your live website
 
 You've made changes to the local versions of your website code in the folder on your computer. Now you're ready to send these changes to your live website. You'll do this by syncing your website code on GitHub's servers with the local version of the code you changed on your computer using GitHub Desktop.
@@ -251,12 +232,10 @@ You've made changes to the local versions of your website code in the folder on 
 
 At this point, you're all set. You should now have a website up and running that you can edit on your computer and then update through GitHub Desktop.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 8: Creating a new blog post (optional)
 
-You can see a guide to create new blog posts on the Academic theme website: https://sourcethemes.com/academic/docs/managing-content/. Here are the basic steps:
+You can see a guide to create new blog posts on the [Academic theme website](https://sourcethemes.com/academic/docs/managing-content/). Here are the basic steps:
 
 - Run the Windows command prompt (press Ctrl+R, then type "cmd" and hit enter)
 
@@ -271,9 +250,7 @@ You can see a guide to create new blog posts on the Academic theme website: http
 - Hugo has automatically generated a new subfolder in your "post" folder for your new post. In your new folder, you'll find an "index.md" file. You can write in your post by editing this "index.md" file in Visual Studio using the Markdown language. Or you can edit it using the free Markdown editing software [Typora](https://typora.io/), which I highly recommend because it's more intuitive to use.
 - When you're done writing your blog post, you can just follow all the steps for pushing your changes through GitHub Desktop to publish your post on your live website.
 
-&nbsp;
-&nbsp;
-
+&nbsp;  
 ## Step 9: Adding Google Analytics (optional)
 
 Google Analytics allows you to see information about who has visited your website. You can get quite detailed information about location down to the city level. You can also see which pages in your website people visited.
