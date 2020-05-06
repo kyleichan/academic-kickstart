@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Recent Posts"
-subtitle = ""
+# title = "Recent Posts"
+# subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -46,7 +46,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+   color = "#FFFFFF"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

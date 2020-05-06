@@ -10,8 +10,13 @@
 
 [[main]]
   name = "Posts"
-  url = "/posts"
+  url = "/post"
   weight = 20
+
+[[main]]
+  name = "Fieldwork Photos"
+  url = "/photos"
+  weight = 30
 
 
 # Link to a PDF of your resume/CV from the menu.
