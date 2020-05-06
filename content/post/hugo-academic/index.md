@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to Set Up a Website with Hugo and the Academic Theme"
+title: "How to Set Up a Website with Hugo and the Academic Theme2"
 subtitle: "A detailed step-by-step guide to setting up a website with Hugo from scratch for PC users."
 summary: ""
 authors: []
