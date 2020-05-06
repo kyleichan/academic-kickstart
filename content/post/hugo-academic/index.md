@@ -30,10 +30,10 @@ projects: []
 
 I built this personal website using Hugo and the Academic theme. These tools for creating a personal website are popular among academic researchers and developers who are looking for a simple, streamlined design. Here are a few examples:
 
-https://kieranhealy.org/  
-https://www.arnoudplantinga.nl/  
-https://www.dsquintana.com/  
-https://www.rohitsalecha.com/  
+www.kieranhealy.org  
+www.arnoudplantinga.nl  
+www.dsquintana.com  
+www.rohitsalecha.com  
 &nbsp; 
 
 Advantages of using Hugo:
