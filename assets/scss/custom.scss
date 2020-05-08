@@ -1,0 +1,21 @@
+.navbar {
+    height: 70px;
+    background: $sta-menu-primary;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+    font-size: #{$sta-font-size-small}px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} 
+
+.home-section {
+    background-color: $sta-home-section-odd;
+    padding: 10px 0 0px 0;
+    animation: 0;
+  }
+
+  article {
+    animation: 0
+  }

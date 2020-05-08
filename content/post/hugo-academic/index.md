@@ -28,6 +28,34 @@ image:
 projects: []
 ---
 
+# Contents
+
+**[Introduction](#intro)**
+
+**[Step 1: Set up Github and Github Desktop](#step1)**
+
+**[Step 2: Set up Hugo](#step2)**
+
+**[Step 3: Set up Academic theme on Netlify](#step3)**
+
+**[Step 4: Set up Google Domains and connect with Netlify](#step4)**
+
+**[Step 5: Customize your Academic themed website](#step5)**
+
+**[Step 6: Previewing your website on your computer](#step6)**
+
+**[Step 7: Publishing changes to your live website](#step7)**
+
+**[Step 8: Creating a new blog post (optional)](#step8)**
+
+**[Step 9: Adding Google Analytics (optional)](#step9)**
+
+**[Step 10: Customizing the Academic theme (optional)](#step10)**
+
+&nbsp;  
+
+# <a name="intro">Introduction</a>
+
 I built this personal website using Hugo and the Academic theme. These tools for creating a personal website are popular among academic researchers and developers who are looking for a simple, streamlined design. Here are a few examples:
 
 www.kieranhealy.org  
@@ -61,9 +89,11 @@ Here are the basic steps for setting up a personal website from scratch with you
 * [Visual Studio](https://visualstudio.microsoft.com/) - editing code (free, required)
 * [Typora](https://typora.io/) - writing blog posts in Markdown (free, optional)
 
-<a name="step1"></a>
-&nbsp;  
-## Step 1: Set up Github and Github Desktop 
+
+
+&nbsp;  
+
+# <a name="step1">Step 1: Set up Github and Github Desktop </a>
 
 **Github**
 
@@ -78,7 +108,7 @@ Download and install [Github Desktop](https://desktop.github.com/).
 Github Desktop is a software program that will allow you to sync your code between a version saved on my computer and a version saved online at Github.
 
 &nbsp;  
-## Step 2: Set up Hugo
+# <a name="step2">Step 2: Set up Hugo</a>
 
 To start, follow the instructions on Hugo's website for [installing Hugo on a Windows PC](https://gohugo.io/getting-started/installing/#windows).
 
@@ -93,7 +123,7 @@ Then download and install Hugo itself from the Hugo website:
 * Add Hugo to your Windows PATH settings by following the steps on the Hugo install guide. **This step is crucial.**
 
 &nbsp;  
-## Step 3: Set up Academic theme on Netlify
+# <a name="step3">Step 3: Set up Academic theme on Netlify</a>
 
 The Academic theme is one of the most popular themes for Hugo and is used for the personal websites of many researchers. The Academic theme is free to use and offers a simple, elegant way to share your bio and work as well as run a personal blog.
 
@@ -107,7 +137,7 @@ My instructions below are for installing Academic using Netlify, a free and wide
 You can easily change your Netlify URL to something else, but it will still end in "netlify.app" rather than ".com". In the next step, we'll set up your ".com" website URL.
 
 &nbsp;  
-## Step 4: Set up Google Domains and connect with Netlify
+# <a name="step4">Step 4: Set up Google Domains and connect with Netlify</a>
 
 Google offers a service for registering your own custom URL. Many other companies offer domain registration services, but I decided to use Google because their prices were in line with industry standards ($12/year) and because Google sounds less sketchy than many of the other domain registration companies out there.
 
@@ -130,7 +160,7 @@ Second, set up the Netlify side:
 You've now connected your custom URL to your Netlify website. It should take some time for everything to link up. If you check your new custom URL right away, you might not see any changes. It can take up to 48 hours for everything to link up properly and for your URL to point to your website, but for me this time usually ranges between 10 min and a few hours.
 
 &nbsp;  
-## Step 5: Customize your Academic themed website
+# <a name="step5">Step 5: Customize your Academic themed website</a>
 
 First, you'll need to download your website code to your computer. Your website's code is currently in a "repo" (i.e. folder) on your online GitHub account. You'll need to download it to your computer and link it up.
 
@@ -196,7 +226,7 @@ Creating new pages:
 To add content to your page besides widgets, such as text or images, start typing Markdown code below the  "---" at the bottom of the index.md file.
 
 &nbsp;  
-## Step 6: Previewing your website on your computer
+# <a name="step6">Step 6: Previewing your website on your computer</a>
 
 Before you officially make changes to your live website, you might want to test different things and see how they look on a web browser.
 
@@ -204,24 +234,24 @@ Before you officially make changes to your live website, you might want to test 
 
 * Open the Windows command prompt. Press the Windows key and R simultaneously (i.e. Win+R). You'll get a small Run window. In the Open field, type "cmd" and hit enter. You should see an old-school black and white text based command line system that looks like DOS.
 
-* Type "cd" and then space and then the name of the folder where you've saved your website code on your computer. For example: "cd academic-kickstart". The "cd" command gets you into that new folder. If your folder is further nested, you can do this "cd" command multiple times until to reach the folder you want.
+* Type "cd" and then space and then the name of the folder where you've saved your website code on your computer. The "cd" command gets you into that new folder. If your folder is further nested, you can do this "cd" command multiple times until to reach the folder you want.
 
   ```
   cd academic-kickstart
   ```
 
-* Now type "hugo server" and hit enter. It should give you a bunch of lines including one that says "Web server is available at http://localhost:1313/" and a line after that that says "Press Ctrl+C to stop". This means that a version of your website is now running on your computer.
+* Now type "hugo server" and hit enter. It should give you a bunch of lines including one that says "Web server is available at `http://localhost:1313/` and a line after that that says "Press Ctrl+C to stop". This means that a version of your website is now running on your computer.
 
   ```
   hugo server
   ```
 
-* Open your web browser and in the URL bar, type in "http://localhost:1313/". Your website should appear. This is how it will likely look when you actually publish the official code online.
+* Open your web browser and in the URL bar, type in `http://localhost:1313/`. Your website should appear. This is how it will likely look when you actually publish the official code online.
 
 Every time you edit any of your website code files and then hit save, your browser will automatically refresh and show you the updated version of your website. When you're done seeing how the local version of your website looks, you can stop running the local version of your website by pressing ctrl+C in the command prompt. Keep in mind that while seeing a local version of your website is useful as a way of previewing your website, your live website may end up looking slightly different (although if everything goes right, it should look exactly the same).
 
 &nbsp;  
-## Step 7: Publishing changes to your live website
+# <a name="step7">Step 7: Publishing changes to your live website</a>
 
 You've made changes to the local versions of your website code in the folder on your computer. Now you're ready to send these changes to your live website. You'll do this by syncing your website code on GitHub's servers with the local version of the code you changed on your computer using GitHub Desktop.
 
@@ -234,7 +264,7 @@ You've made changes to the local versions of your website code in the folder on 
 At this point, you're all set. You should now have a website up and running that you can edit on your computer and then update through GitHub Desktop.
 
 &nbsp;  
-## Step 8: Creating a new blog post (optional)
+# <a name="step8">Step 8: Creating a new blog post (optional)</a>
 
 You can see a guide to create new blog posts on the [Academic theme website](https://sourcethemes.com/academic/docs/managing-content/). Here are the basic steps:
 
@@ -252,7 +282,7 @@ You can see a guide to create new blog posts on the [Academic theme website](htt
 - When you're done writing your blog post, you can just follow all the steps for pushing your changes through GitHub Desktop to publish your post on your live website.
 
 &nbsp;  
-## Step 9: Adding Google Analytics (optional)
+# <a name="step9">Step 9: Adding Google Analytics (optional)</a>
 
 Google Analytics allows you to see information about who has visited your website. You can get quite detailed information about location down to the city level. You can also see which pages in your website people visited.
 
@@ -260,10 +290,47 @@ Google Analytics allows you to see information about who has visited your websit
 
 - Follow the steps for adding your website URL. Get your Google Analytics tracking ID. You can always find it by looking at the bottom of the left sidebar and clicking "Admin". Then go to "Tracking Info". Go to "Tracking Code". It should list a tracking ID at the top with this format: "UA-125338960-1".
 
-- In your website code folder, go to the \config\\_default\ folder and open the "params.toml" file. If you scroll to the bottom, you'll find the Google Analytics setting. Update this line of code with your Google Analytics tracking ID
+- In your website code folder, go to the `\config\\_default\` folder and open the `params.toml` file. If you scroll to the bottom, you'll find the Google Analytics setting. Update this line of code with your Google Analytics tracking ID
 
   ```
   google_analytics = "UA-125338960-1"
   ```
 
 Now you should be all set. You should be able to see your own visits to your website start to show up on the Google Analytics page. You can check out location by going to the map and zooming in on countries in blue.
+
+
+&nbsp;  
+# <a name="step10">Step 10: Customizing the Academic theme (optional)</a>
+
+The Academic theme has many [built-in options](https://sourcethemes.com/academic/docs/customization/) for customization. For example, to change the font size across your whole website, you can go to `config/_default/params.toml` and change the `font_size` setting there.
+
+But there are many things you can't change through these preset options. To make other changes, you'll have to modify the underlying CSS code itself. To do this, go to the `/assets` folder and create a new subfolder called `/scss`. In this new subfolder, create a blank new file called `custom.scss`. Now you can copy snippets of CSS code that you'd like to change into this new CSS file. Any code here will override the standard Academic template.
+
+To find CSS code to copy into this new file and edit, look through the various .scss files in the `/academic` folder nested in your `/themes` folder:
+
+```
+academic-kickstart\themes\academic\assets\scss\academic
+```
+
+You can copy snippets of code and paste them into your `custom.scss` file. For example, if you'd like to change the look of the navigation bar at the top, go to 
+
+```
+academic-kickstart\themes\academic\assets\scss\academic\_nav.scss
+```
+
+Then you can copy this CSS code into your `custom.scss` file:
+
+```scss
+.navbar {
+  height: 70px;
+  background: $sta-menu-primary;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+  font-size: #{$sta-font-size-small}px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+```
+
+When you save changes to the file, your code will override the original navigation bar CSS code from the Academic theme.
