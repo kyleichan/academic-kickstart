@@ -38,6 +38,8 @@ A Markov chain is a series of events where the probability of something happenin
 
 Let's think about 4 time periods. In a Markov chain, whatever happens in Time 4 depends only on the situation in Time 3. Anything that happened in Time 1 or Time 2 doesn't really matter for Time 4.
 
+![Markov chain image](markov0.png)
+
 In a Markov chain, the situation in Time 4 only depends on the situation in Time 3. Whatever happened in Time 1 and Time 2 has no direct effect on what happens in Time 4.Why are Markov chains important?
 
 There are two general reasons why we should care about Markov chains.
@@ -61,11 +63,15 @@ So if you currently use an iPhone, the next phone you buy will probably be anoth
 
 And if you currently use an Android phone, you'll probably buy an Android phone again - say with 70% probability - but there's also a chance you'll switch to an iPhone - say with 30% probability.
 
+![Markov chain image](markov1.png)
+
 Probabilities for getting an iPhone or an Android phone next year depending on whether you're an iPhone or Android user this yearEach of these probabilities of staying with your current type of smartphone or switching is called a transition probability. Transition probabilities are "conditional probabilities" where the probability of being an iPhone or Android user in one year depends on ("is conditional on") whether you were an iPhone or Android user the previous year.
 
 All of these transition probabilities put together form a transition matrix. A transition matrix allows us to map out the probabilities for every possible future state- whether you're iPhone user or Android user next year- for each possible current state- whether you're an iPhone user or Android user this year.
 
 We can think about what will happen not just for this year and next but the year after as well.
+
+![Markov chain image](markov2.png)
 
 If you start off as an iPhone user in Year 1, these are your probabilities for being an iPhone user or an Android user in Year 2 and Year 3If we start with an iPhone in Year 1, then in Year 2 we have an 80% chance of having an iPhone again and a 20% of having an Android phone. We can do the same thing again for Year 3, but this time we apply our transition probabilities to our situation in Year 2. If we had an iPhone in Year 2, then in Year 3 we'd have an 80% chance of having an iPhone and a 20% chance of having an Android phone. But if we had an Android phone in Year 2, then in Year 3 we'd have a 30% chance of having an iPhone and a 70% chance of having an Android phone.
 
@@ -85,6 +91,8 @@ So in Year 2, if we add these all up, we end up with:
 * 75 iPhone users
 * 25 Android users
 
+![Markov chain image](markov3.png)
+
 For Year 3, we would apply our same transition probabilities again but to Year 2 instead. A percentage of our iPhone users in Year 2 would stay iPhone users in Year 3 (80%) while the rest would switch to Android (20%). A percentage of our Android users in Year 2 would stay Android users in Year 3 (70%) while the rest would switch to using an iPhone (30%). For Year 3, it doesn't matter whether you were originally an iPhone user back in Year 1. All that matters is whether you were an iPhone user in Year 2.
 
 For Year 4 and Year 5 and every year after that, we'd apply our transition probabilities to the distribution of smartphone users in the previous year. We can do this for as many years as we'd like.
@@ -93,6 +101,8 @@ For Year 4 and Year 5 and every year after that, we'd apply our transition proba
 ## Stationary Distributions
 
 If we keep going for many years, the proportion of iPhone users and Android users will eventually converge to a steady-state equilibrium. You can see below that after around 6 years, our group of users ends up stabilizing at around 60% iPhone users and 40% Android users. After 100 years or 1,000 years or a million years, our proportion of iPhone and Android users basically stays the same.
+
+![Markov chain image](markov4.png)
 
 When we look at what happens to a distribution over the very long run, we're finding the limiting distribution. And when our limiting distribution converges to something stable, we call this a stationary distribution (it's also called an invariant distribution or an equilibrium distribution). So for our example, the 60/40 split of iPhone users and Android users over the long run is our stationary distribution.
 
@@ -116,6 +126,8 @@ Keep in mind that for a Markov chain to be irreducible, you don't have to be abl
 Second, we can't get stuck cycling back and forth between the same set of states at regular intervals. In other words, our Markov chain must be aperiodic.
 
 It's helpful to first explain what a periodic Markov chain is. A Markov chain is periodic when we keep ending up at the same state every 2 or 3 or more regular intervals of time. For our smartphone example, let's go back to thinking only about a single user. And this time, let's say that each year you definitely switch which type of smartphone you use (so your probability of switching is 1). So if you start with an iPhone in Year 1, then you'll have an Android phone in Year 2, and then an iPhone again in Year 3.
+
+![Markov chain image](markov5.png)
 
 An example of a periodic Markov chain. If we switch phones every year with 100% probability, then we end up with an iPhone every odd year and an Android phone every even year.You can quickly see that in odd years, you'd definitely have an iPhone and in even years you'd definitely have an Android phone. In this case, your Markov chain is periodic because you keep cycling back and forth between an iPhone and an Android phone at a fixed interval of time - in this case, every 2 years.
 
