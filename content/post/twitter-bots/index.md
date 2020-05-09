@@ -40,13 +40,13 @@ Key points:
 
 Recently, I had been noticing a number of posts on Twitter from users who had lost loved ones to COVID-19. One tweet that was “liked” by a doctor I follow caught my eye. This tweet is no longer available, but I managed to grab a screenshot:
 
-![](natalie.jpeg)
+<img src="natalie.jpeg" style="zoom:50%;" />
 
 Several things about this tweet seemed off. It seemed strange that someone would be on Twitter immediately after losing their husband. I also wondered whether a hospital would really allow someone to “pick up” the body of a family member who had just died of COVID-19. In general, the language simply sounded too crude.
 
 As I read through the comments, I found a few skeptics amidst the many expressions of condolence. Some people had gone through this user’s previous tweets and discovered strange inconsistencies. I also went back through her previous tweets and thought the English sounded strange. A number of users began to report her, and while I was still reading through her previous tweets Twitter suspended the account. I did manage to grab a screenshot of the Twitter profile:
 
-![](natalie2.png)
+<img src="natalie2.png" style="zoom:80%;" />
 
 Several shocking thoughts began to cross my mind. Had I stumbled across a bot or troll? Were they using fake coronavirus deaths to attract attention and gain followers? Could people really be stooping down to this level?
 
@@ -73,7 +73,7 @@ Earlier, this same user had posted this strange tweet:
 &nbsp;  
 It turns out [this Twitter account](https://twitter.com/KatherineM213) is entirely dedicated to promoting Beto O’Rourke, with thousands of retweets of campaign footage, news, and photos of the former presidential candidate:
 
-![](katherine.jpeg)
+<img src="katherine.jpeg" style="zoom:50%;" />
 
 &nbsp;  
 # Real vs. Fake Twitter Accounts

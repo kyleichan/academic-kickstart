@@ -50,4 +50,4 @@ user_groups:
 - Visitors
 ---
 
-Kyle Chan is a PhD student in the Sociology Department at Princeton University. His research focuses on state capacity in the developing world, particularly in China and India. His dissertation compares railway infrastructure development in contemporary China and India based on two years of fieldwork based in Beijing and Delhi. He received a master’s degree in political sociology from the London School of Economics and a bachelor’s degree in economics from the University of Chicago.
+Kyle Chan is a PhD student in the [Sociology Department at Princeton University](https://sociology.princeton.edu/people/kyle-chan). His research focuses on state capacity in the developing world, particularly in China and India. His dissertation compares railway infrastructure development in contemporary China and India based on two years of fieldwork based in Beijing and Delhi. He received a master’s degree in political sociology from the [London School of Economics](http://www.lse.ac.uk/) and a bachelor’s degree in economics from the [University of Chicago](https://www.uchicago.edu/).

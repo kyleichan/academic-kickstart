@@ -18,6 +18,16 @@
   url = "/photos"
   weight = 30
 
+[[main]]
+  name = "China"
+  url = "/china"
+  weight = 40
+
+[[main]]
+  name = "India"
+  url = "/india"
+  weight = 50
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
