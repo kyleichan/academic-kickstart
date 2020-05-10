@@ -1,3 +1,5 @@
+/* Get rid of floating navbar effect and adjust for spacing */
+
 .navbar {
     height: 70px;
     background: $sta-menu-primary;
@@ -10,11 +12,16 @@
     z-index: 1030;
 } 
 
+/* Get rid of extra spacing */
 .home-section {
     background-color: $sta-home-section-odd;
     padding: 10px 0 0px 0;
   }
 
-  h1 {
-    font-size: 2.25rem;
+/* Change font size for section header (i.e. recent posts) on homepage */
+  .section-heading h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
   }
+
+  

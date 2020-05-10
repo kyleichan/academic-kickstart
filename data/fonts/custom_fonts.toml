@@ -1,5 +1,5 @@
 # Font style metadata
-name = "Minimal"
+name = "custom_fonts"
 
 # Optional Google font URL
 google_fonts = "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -8,4 +8,4 @@ google_fonts = "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 heading_font = "Roboto"
 body_font = "Roboto"
 nav_font = "Roboto"
-mono_font = "Roboto Mono"
+mono_font = "Roboto"
