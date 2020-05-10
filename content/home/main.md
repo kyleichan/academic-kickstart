@@ -50,4 +50,4 @@ weight = 15  # Order that this section will appear.
  css_class = ""
 
 +++
-Bio: PhD student in sociology at Princeton [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan)   [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan)
+I'm a PhD student in sociology at Princeton. [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan)   [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan)
