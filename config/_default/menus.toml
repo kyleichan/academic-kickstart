@@ -19,12 +19,12 @@
   weight = 30
 
 [[main]]
-  name = "China"
+  name = "China Resources"
   url = "/china"
   weight = 40
 
 [[main]]
-  name = "India"
+  name = "India Resources"
   url = "/india"
   weight = 50
 

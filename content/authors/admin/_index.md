@@ -25,9 +25,9 @@ bio: PhD student in Sociology at Princeton
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/kyleichan
@@ -50,4 +50,4 @@ user_groups:
 - Visitors
 ---
 
-Kyle Chan is a PhD student in the [Sociology Department at Princeton University](https://sociology.princeton.edu/people/kyle-chan). His research focuses on state capacity in the developing world, particularly in China and India. His dissertation compares railway infrastructure development in contemporary China and India based on two years of fieldwork based in Beijing and Delhi. He received a master’s degree in political sociology from the [London School of Economics](http://www.lse.ac.uk/) and a bachelor’s degree in economics from the [University of Chicago](https://www.uchicago.edu/).
+Kyle Chan is a PhD student in the [Sociology Department at Princeton University](https://sociology.princeton.edu/people/kyle-chan). His research focuses on state capacity in the developing world, particularly in China and India. His dissertation compares railway infrastructure development in contemporary China and India based on two years of fieldwork based in Beijing and Delhi. He received a master’s degree in political sociology from the London School of Economics and a bachelor’s degree in economics from the University of Chicago.
