@@ -50,4 +50,4 @@ weight = 15  # Order that this section will appear.
  css_class = ""
 
 +++
-I'm a PhD student in sociology at Princeton. [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan) [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan) 
+<span style="font-size: 1rem">I'm a PhD student in sociology at Princeton.</span>  [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan) [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan)
