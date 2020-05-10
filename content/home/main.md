@@ -50,11 +50,4 @@ weight = 15  # Order that this section will appear.
  css_class = ""
 
 +++
-
-Kyle Chan. PhD student in sociology at Princeton. 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+Bio: PhD student in sociology at Princeton [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan)   [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan)
