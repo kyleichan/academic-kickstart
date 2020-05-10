@@ -5,10 +5,10 @@ title: "How to Set Up a Website with Hugo and the Academic Theme"
 subtitle: "A detailed step-by-step guide to setting up a website like this one from scratch with Hugo and the Academic theme."
 summary: "A detailed step-by-step guide to setting up a website like this one from scratch with Hugo and the Academic theme."
 authors: [admin]
-tags: []
+tags: ["website development"]
 categories: []
 date: 2020-05-06T10:04:47-04:00
-# lastmod: 2020-05-06T10:04:47-04:00
+lastmod: 2020-05-06T10:04:47-04:00
 featured: false
 draft: false
 

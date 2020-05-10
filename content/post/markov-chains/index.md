@@ -8,7 +8,7 @@ authors: ["admin"]
 tags: ["machine learning", "statistics"]
 categories: []
 date: 2020-04-26T12:45:57-04:00
-# lastmod: 2020-05-05T22:45:57-04:00
+lastmod: 2020-04-26T12:45:57-04:00
 featured: false
 draft: false
 
@@ -18,7 +18,7 @@ draft: false
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
