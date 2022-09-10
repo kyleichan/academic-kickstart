@@ -50,4 +50,8 @@ weight = 15  # Order that this section will appear.
  css_class = ""
 
 +++
-<span style="font-size: .9rem">I'm a PhD student in sociology at Princeton.</span> [{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan) [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan)
+<SPAN STYLE="font-size:18px">I'm a PhD student in sociology at Princeton. My research focuses on bureaucracy and infrastructure development in China and India. My work has been published in *Asian Survey* and the *Chinese Journal of Sociology*. I have a BA in economics from the University of Chicago and an MSc in political sociology from the London School of Economics and Political Science.<br><br>
+Publications:<br><br>
+Chan, Kyle (2022) “The Organizational Roots of State Capacity: Comparing Railway Bureaucracies in China and India.” *Asian Survey*.<br>[link to article](https://online.ucpress.edu/as/article/doi/10.1525/as.2022.1720395/192939/The-Organizational-Roots-of-State)<br><br>
+Chan, Kyle (2022) “Inside China’s State-Owned Enterprises: Managed Competition through a Multi-Level Structure.” *Chinese Journal of Sociology*.<br>[link to article](https://journals.sagepub.com/doi/full/10.1177/2057150X221123388)<br><br>
+[{{< icon name="twitter" pack="fab" >}}](https://twitter.com/kyleichan) [{{< icon name="github" pack="fab" >}}](https://github.com/kyleichan)</span>
