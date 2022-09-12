@@ -52,7 +52,7 @@ weight = 15  # Order that this section will appear.
 +++
 <font size=4>I'm a PhD student in sociology at Princeton. My research focuses on bureaucracy and infrastructure development in China and India. My work has been published in *Asian Survey* and the *Chinese Journal of Sociology*. I have a BA in economics from the University of Chicago and an MSc in political sociology from the London School of Economics and Political Science.
 #### Publications:
-Chan, Kyle (2022) “The Organizational Roots of State Capacity: Comparing Railway Bureaucracies in China and India.” *Asian Survey*.</br>[link to article](https://online.ucpress.edu/as/article/doi/10.1525/as.2022.1720395/192939/The-Organizational-Roots-of-State)</br>
-Chan, Kyle (2022) “Inside China’s State-Owned Enterprises: Managed Competition through a Multi-Level Structure.” *Chinese Journal of Sociology*.</br>[link to article](https://journals.sagepub.com/doi/full/10.1177/2057150X221123388)</br></br>
+Chan, Kyle (2022) “The Organizational Roots of State Capacity: Comparing Railway Bureaucracies in China and India.” *Asian Survey*.</br>[published article link](https://online.ucpress.edu/as/article/doi/10.1525/as.2022.1720395/192939/The-Organizational-Roots-of-State)  [SSRN link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4216961)</br>
+Chan, Kyle (2022) “Inside China’s State-Owned Enterprises: Managed Competition through a Multi-Level Structure.” *Chinese Journal of Sociology*.</br>[published article link](https://journals.sagepub.com/doi/full/10.1177/2057150X221123388) [SSRN link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4216968)</br></br>
 Twitter:[@kyleichan](https://twitter.com/kyleichan)</br>
 Github:[kyleichan](https://github.com/kyleichan)</font>
